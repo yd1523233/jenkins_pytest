@@ -13,7 +13,7 @@ def test_2():
     assert 1 == 1
 
 
-@pytest.mark.skip(reason="there is no reason, give up!")
+@pytest.mark.skip(reason="there is no reason, give up!!")
 @allure.label('this is a labl')
 def test_3():
     assert True

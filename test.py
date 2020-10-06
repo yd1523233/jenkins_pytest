@@ -17,3 +17,9 @@ def test_2():
 @allure.label('this is a labl')
 def test_3():
     assert True
+
+
+@allure.title("这个是第三个")
+@allure.feature("this is module name!!!")
+def test_04():
+    assert True
